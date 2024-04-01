@@ -26,10 +26,10 @@ Example of how the code works:
 The code takes in two numbers and generates an array of all the numbers between the two given ones.
 
 Some concepts used for this code are:
-Prompt- A javascript method that displays a dialog box for inputting the user's data.
-ParseInt - converts user input to  number data type
-For loop: loops through numbers from the starting number to the last number with an increment or decrement of 1 pushing the numbers into a new array.
-The generateArray function returns a new array of numbers.
+1. Prompt- A javascript method that displays a dialog box for inputting the user's data.
+2. ParseInt - converts user input to  number data type
+3. For loop: loops through numbers from the starting number to the last number with an increment or decrement of 1 pushing the numbers into a new array.
+4. The generateArray function returns a new array of numbers.
 
    Example of the working code:
 

@@ -1,11 +1,52 @@
 # Week 2 -Phase-1 code challenge
 
+##Intro
 This code challenge included three javascript challenges which are:
 A function that swaps the  case of a string, A function that generates an array of numbers and one that takes an array of numberas and returns a new array of prime numbers.
 
 Date: 04/01/2024
 
-# Description
+## Description
+### 1. caseSwap.js
+The code prompts the user for a valid string which is then passed as an argument to the swapCase function.
+Some concepts used for this code are:
+Prompt- A javascript method that displays a dialog box for inputting the user's data.
+A for loop- loops through the characters in a given string,
+IF -ELSE Statement that checks the current case of the character
+toUpperCase and toLowerCase are inbuilt methods that perform case swap on the passes character.
+
+Example of how the code works:
+![caseSwap](https://github.com/Rhoda-NM/Phase-1-wk-2-code-challenge/assets/56297292/d78691bc-f34d-4fae-9ac0-e77733378e06)
+
+
+### 2. arrayGenerator.js
+The code takes in two numbers and generates an array of all the numbers between the two given ones.
+Some concepts used for this code are:
+Prompt- A javascript method that displays a dialog box for inputting the user's data.
+ParseInt - converts user input to  number data type
+For loop: loops through numbers from the starting number to the last number with an increment or decrement of 1 pushing the numbers into a new array.
+The generateArray function returns a new array of numbers.
+
+Example of the working code:
+![Screenshot from 2024-04-01 09-31-06](https://github.com/Rhoda-NM/Phase-1-wk-2-code-challenge/assets/56297292/19c9ce43-ba6a-4d9e-89a5-8532548722e0)
+
+
+### 3.PrimeArray.js
+The code takes in an array of numbers and returns a new array that contains only the prime numbers.
+Prompt- A javascript method that displays a dialog box for inputting the user's data.
+ParseInt - converts user input to  number data type
+.split method splits the string of numbers entered using whitespace or comma.
+map(Number) converts an array of strings into a new array of numbers.
+% operator returns the remainder of division.
+In the for loop:
+Continue allows to skip the current iteration and continue the loop
+Break allows to break the loop and continue executing the next lines of code
+Use of a boolean value that helps check if the number is a prime number.
+Working concept: Iterating through each number in the given array, for each iteration, use a nested loop that loops from 2 to number-1 checking for the mod.
+
+Example of the work:
+![primeNumbers](https://github.com/Rhoda-NM/Phase-1-wk-2-code-challenge/assets/56297292/4bf1c5b3-8ac4-46a9-a90f-a160a5e90b19)
+
 
 
 

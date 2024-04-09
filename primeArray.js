@@ -27,4 +27,5 @@ function checkPrime(arr) {
     //console.log(primeArray);
 }
 //checkPrime(originalArray);
+checkPrime(numbersArray)
 console.log(checkPrime(numbersArray));
